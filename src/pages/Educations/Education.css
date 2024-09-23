@@ -1,0 +1,60 @@
+:root {
+  --dark: #1e1e1e;
+  --main: #59ce8f;
+  --secondMain: #100720;
+  --cardBG: #2b2b2ba0;
+  --textColor: #e8f9fd;
+  --secondText: #000000;
+  --border: 20px;
+}
+
+.Education {
+  margin-top: 20px;
+  background-color: var(--cardBG);
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.Introduce {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+  flex: 30%;
+  text-align: center;
+}
+.left img {
+  box-shadow: 5px 5px 200px 20px #00a850;
+}
+
+.right {
+  border-radius: 10px;
+  margin: 5px;
+  background-color: var(--dark);
+  padding: 20px;
+  flex: 30%;
+}
+.right .degree {
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  align-items: left;
+  padding: 10px;
+  background-color: var(--cardBG);
+  margin: 15px 0;
+  border-radius: var(--border);
+  color: #00a850;
+}
+
+/* --------------------------------Mobile Responsive---------------------------------------  */
+
+@media only screen and (max-width: 560px) {
+  .Education h1 {
+    font-size: 20px;
+  }
+}
