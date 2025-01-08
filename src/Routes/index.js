@@ -10,6 +10,7 @@ import Skill from "../pages/Skills/Skill";
 import Error from "../pages/Error/Error";
 import ScrollToTop from "../components/ScrollToTop";
 import Services from "../pages/Services";
+import Education from "../pages/Educations/Education";
 
 const Index = () => {
   return (
@@ -20,7 +21,7 @@ const Index = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacts" element={<Contact />} />
-        <Route path="/abouts" element={<Footer />} />
+        <Route path="/educations" element={<Education />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/services" element={<Services />} />
         <Route path="/skills" element={<Skill />} />

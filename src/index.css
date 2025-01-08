@@ -18,14 +18,14 @@
 }
 
 .defaultButton {
-  @apply shadow-sm shadow-green-600  rounded-[15px] hover:bg-[#00a94f]  transition-all duration-500;
+  @apply shadow-sm shadow-green-600  rounded-[15px] hover:bg-[#006a32]  transition-all duration-500;
 }
 .liveLinkButton {
-  @apply shadow-sm shadow-red-600  rounded-[15px] hover:bg-red-600  transition-all duration-500;
+  @apply shadow-sm shadow-red-700  rounded-[15px] hover:bg-red-700  transition-all duration-500;
 }
 .defaultButtonReverse {
-  @apply shadow-sm shadow-white  rounded-[15px] hover:bg-transparent hover:shadow-[#00a94f] transition-all duration-500;
-  background-color: #00a94f;
+  @apply shadow-sm shadow-white  rounded-[15px] hover:bg-transparent hover:shadow-[#006a32] transition-all duration-500;
+  background-color: #006a32;
   color: white;
 }
 
@@ -39,7 +39,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 166.667% */
-  letter-spacing: 1.6px;
+  letter-spacing: 1.5px;
 }
 
 .bodyFont {
@@ -53,6 +53,9 @@
   width: 90%;
   height: 90%;
 }
+.socialMediaIcon2 {
+  height: 90%;
+}
 .linkStyle {
   @apply md:w-10 md:h-10  sm:w-9 sm:h-9 p-2 rounded-full hover:scale-90 shadow-sm shadow-green-600 transition-transform;
   position: relative;
@@ -60,6 +63,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .smResImg {
   @apply sm:w-40  sm:opacity-95  hover:opacity-100;
 }

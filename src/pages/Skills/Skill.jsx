@@ -14,14 +14,26 @@ import JS from "./img/Javascript.png";
 import Git from "../../assets/img/icon-git.svg";
 import SkillItem from "../../components/SkillCard";
 import Table from "../../components/Table";
+import HelmetPage from "../../components/Helmet/Helmet";
 
 const Skill = () => {
   return (
     <>
-      <div className=" mt-4 lg:container lg:mx-auto flex flex-col gap-4 bg-[#2b2b2ba0] lg:px-14 py-4">
+      <HelmetPage
+        title="Gained Skills | Akbar Hossan"
+        desc="I have done many skill such as ReactJS, Nodejs, ExpressJS, Redux Toolkit, mongodb etc."
+        link="https://telepathist-samrat.netlify.app/skills"
+      />
+      <div
+        id="skill"
+        className=" mt-4 lg:container lg:mx-auto flex flex-col gap-4 bg-[#2b2b2ba0] lg:px-14 py-4"
+      >
         <Fade left>
           <div className="topSide flex justify-between items-center  topSideSm sm:flex-col sm:justify-center sm:items-center topSideMd topSideLg lg:gap-2 lg:flex-row">
-            <div className="flex flex-col sm:justify-center sm:items-center md:justify-start md:items-start gap-6 sm:px-4">
+            <div
+              content="skills akbar hossan mern stack web developer"
+              className="flex flex-col sm:justify-center sm:items-center md:justify-start md:items-start gap-6 sm:px-4"
+            >
               <div className="sm:text-2xl md:text-4xl font-semibold">
                 Professional <span className="text-green-500">Skills</span>
               </div>

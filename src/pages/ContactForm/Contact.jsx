@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import Dialogs from "../../components/Dialog/Dialogs";
 // Material UI
 import { Container } from "@mui/material";
+import HelmetPage from "../../components/Helmet/Helmet";
 
 const Contact = () => {
   const [isSuccess, setIsSuccess] = useState(false);
@@ -32,6 +33,11 @@ const Contact = () => {
 
   return (
     <>
+      <HelmetPage
+        title="MD. Akbar Hossan | Web Developer with MERN Stack | Contact for me 01879808105"
+        desc="To contact with akbar, send email and get response within few hours"
+        link="https://akbar-hossan05.netlify.app/"
+      />
       <React.Fragment>
         <div
           className="mt-4 lg:container lg:mx-auto  bg-[#2b2b2ba0] lg:px-14 py-4"
@@ -40,7 +46,10 @@ const Contact = () => {
           <Fade left></Fade>
           {/* University Education Details */}
           <div className="contactFrom ">
-            <h1 className="center">
+            <h1
+              className="center"
+              content="projects akbar hossan mern stack web developer"
+            >
               <span className="sm:text-2xl text-center md:py-8 md:text-4xl font-semibold md:w-[450px]">
                 Have an Awsome Project Idea?{" "}
               </span>
@@ -50,6 +59,8 @@ const Contact = () => {
                 className="flex flex-col justify-center items-center md:py-8 md:px-4 sm:px-4"
                 onSubmit={sendEmail}
                 ref={form}
+                name="contact"
+                netlify
               >
                 <div className="flex flex-col gap-y-3 justify-center items-center">
                   <p className="text-base font-normal text-green-500">

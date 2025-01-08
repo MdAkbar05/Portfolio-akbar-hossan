@@ -53,11 +53,11 @@ const Navbar = () => {
           </Link>
           <Link
             className={url == "/abouts" ? "nav-item active" : "nav-item"}
-            to="/abouts"
+            to="/educations"
             onClick={closeMobileMenu}
           >
             <Info />
-            Abouts
+            Educations
           </Link>
         </ul>
       </div>

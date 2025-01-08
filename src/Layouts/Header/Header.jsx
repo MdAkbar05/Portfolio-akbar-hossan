@@ -4,6 +4,7 @@ import "./header.css";
 import { Link, useLocation } from "react-router-dom";
 import logo from "./../../assets/img/logo.png";
 import Navbar from "./Navbar";
+import ViewCounter from "../../components/Views/ViewCounter";
 
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -37,13 +38,12 @@ const Header = () => {
               <Link to="/services">Services</Link>
             </li>
             <li className={url == "/abouts" ? "navBtn active" : "navBtn"}>
-              <Link to="/abouts">Abouts</Link>
+              <Link to="/educations">Educations</Link>
             </li>
           </ul>
+          <ViewCounter />
           <div className="px-5 py-2 defaultButtonReverse">
-            <a href="#contact" className="contact-link">
-              Contacts
-            </a>
+            <a href="/contacts">Contacts</a>
           </div>
         </div>
 

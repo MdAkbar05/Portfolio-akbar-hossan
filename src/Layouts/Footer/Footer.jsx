@@ -48,7 +48,7 @@ const Footer = () => {
                   alignItems="flex-end"
                   className="contacts"
                 >
-                  <Link to="https://www.facebook.com/samrat.akbar.9883">
+                  <Link to="https://www.facebook.com/akbarhossan05">
                     <FacebookRounded
                       className="fb"
                       sx={{ fontSize: 32, color: "#7e9eb7" }}
@@ -60,13 +60,13 @@ const Footer = () => {
                       sx={{ fontSize: 30, color: "#7e9eb7" }}
                     />
                   </Link>
-                  <Link to="https://www.instagram.com/mdakbarhossansamrat/">
+                  <Link to="https://www.instagram.com/akbarhossan05/">
                     <Instagram
                       className="inst"
                       sx={{ fontSize: 30, color: "#7e9eb7" }}
                     />
                   </Link>
-                  <Link to="https://github.com/MdAkbar05">
+                  <Link to="https://www.linkedin.com/akbarhossan05">
                     <LinkedIn
                       className="lkn"
                       sx={{ fontSize: 32, color: "#7e9eb7" }}
@@ -101,11 +101,18 @@ const Footer = () => {
               </li>
               <li>
                 <AddIcCall className="contact-icon" />
-                <span className="ml-2">+8801879808105 or +8801763892682</span>
+                <a href="tel:+8801879808105" className="ml-2">
+                  +8801879808105
+                </a>
               </li>
               <li>
                 <Mail className="contact-icon" />
-                <span className="ml-2">samratakbar667466@gmail.com</span>
+                <a
+                  href="mailto:akbar.hossan.official@gmail.com"
+                  className="ml-2"
+                >
+                  akbar.hossan.official@gmail.com
+                </a>
               </li>
             </ul>
           </div>
@@ -125,7 +132,7 @@ const Footer = () => {
         </div>
         {/* Copy right text  */}
         <p className="text-center font-thin sm:pb-10 md:pb-0">
-          Copyright © 2024 Telepathist-Samrat. All rights reserved{" "}
+          Copyright © 2025 MD_Akbar_Hossan. All rights reserved{" "}
         </p>
       </div>
     </>

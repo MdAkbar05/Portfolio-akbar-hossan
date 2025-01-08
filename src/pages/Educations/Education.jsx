@@ -6,6 +6,7 @@ import Educations from "./img/EducationsStudent.png";
 import Dialogs from "../../components/Dialog/Dialogs";
 
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
+import HelmetPage from "../../components/Helmet/Helmet";
 
 const Education = () => {
   const [dialog, setDialog] = useState("null");
@@ -21,10 +22,21 @@ const Education = () => {
   };
   return (
     <>
+      <HelmetPage
+        title="Educational Qualifications | Akbar Hossan"
+        desc="I have done SSC certificate and diploma in computer science & technology in daffodil institute of IT, Chittagong. And current now I have been running Becelor of Science."
+        link="https://telepathist-samrat.netlify.app/educations"
+      />
       <React.Fragment>
-        <div className="mt-4 lg:container lg:mx-auto  bg-[#2b2b2ba0] lg:px-14 py-4 pb-32">
+        <div
+          id="education"
+          className="mt-4 lg:container lg:mx-auto  bg-[#2b2b2ba0] lg:px-14 py-4 pb-32"
+        >
           <Fade left>
-            <h1 className="center">
+            <h1
+              className="center"
+              content="educations akbar hossan mern stack web developer"
+            >
               <span className="sm:text-2xl text-center md:py-8 md:text-4xl font-semibold">
                 Education <span className="text-green-500">Qualifications</span>
               </span>
